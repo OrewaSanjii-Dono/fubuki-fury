@@ -10,10 +10,10 @@ from logging.handlers import RotatingFileHandler
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8099261976:AAHC_ptX7nqeV1YSHY9ETLiAL5aKh6CBEUk")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "24567281"))
+APP_ID = int(os.environ.get("APP_ID", "27390437"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "17a51c14e6c25caad1a8f63a97c51f96")
+API_HASH = os.environ.get("API_HASH", "8dcef0252047d3a4556ad80280db4146")
 
 #Your db channel Id
 CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002341804786"))
@@ -40,7 +40,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/seQ.jpg")
 
 #text
 HELP_TXT = "<b>ʜɪ ᴅᴜᴅᴇ!!\nᴛʜɪs ɪs ᴀ ғɪʟᴇ ᴛᴏ ʟɪɴᴋ ʙᴏᴛ ᴡʜɪᴄʜ ᴏɴʟʏ ᴡᴏʀᴋ ғᴏʀ : [ @Adult_Flux ]\n\n❏ ʙᴏᴛ ᴄᴏᴍᴍᴀɴᴅs\n├/start : sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ\n├/about : ᴏᴜʀ Iɴғᴏʀᴍᴀᴛɪᴏɴ\n└/help : ʜᴇʟᴘ ʀᴇʟᴀᴛᴇᴅ ʙᴏᴛ\n\n💥 sɪᴍᴘʟʏ ᴄʟɪᴄᴋ ᴏɴ ʟɪɴᴋ ᴀɴᴅ sᴛᴀʀᴛ ᴛʜᴇ ʙᴏᴛ ᴊᴏɪɴ ʙᴏᴛʜ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ᴛʀʏ ᴀɢᴀɪɴ ᴛʜᴀᴛs ɪᴛ.....!\n\n🧑‍💻 ᴏᴡɴᴇᴅ ʙʏ : [ @Adult_Flux ]</b>"
-ABOUT_TXT = "<b>○ 𝐎ᴡɴᴇʀ : <a href='https://t.me/Karasu_07'>➳≛⃝ KaraSu ×‌×</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Fury'>𝐀ɴɪᴍᴇ 𝐅ᴜʀʏ</a>\n○ 𝐎ɴɢᴏɪɴɢ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Fury'>𝐎ɴɢᴏɪɴɢ 𝐅ᴜʀʏ</a>\n○ 𝐇ɪɴᴅɪ 𝐃ᴜʙ : <a href='https://t.me/Anime_Multiverse_Hindi'>𝐀ɴɪᴍᴇ 𝐌ᴜʟᴛɪᴠᴇʀsᴇ</a>\n○ 𝐇ᴇɴᴛᴀɪ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/adult_Flux'>𝐀ᴅᴜʟᴛ 𝐅ʟᴜx</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ : <a href='https://t.me/+CKOnU7duxYEyNjg9'>𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ 𝐅ᴜʀʏ</a></b>"
+ABOUT_TXT = "<b><blockquote>○ 𝐎ᴡɴᴇʀ : <a href='https://t.me/Karasu_07'>➳≛⃝ KaraSu ×‌×</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Fury'>𝐀ɴɪᴍᴇ 𝐅ᴜʀʏ</a>\n○ 𝐎ɴɢᴏɪɴɢ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/Anime_Fury'>𝐎ɴɢᴏɪɴɢ 𝐅ᴜʀʏ</a>\n○ 𝐇ɪɴᴅɪ 𝐃ᴜʙ : <a href='https://t.me/Anime_Multiverse_Hindi'>𝐀ɴɪᴍᴇ 𝐌ᴜʟᴛɪᴠᴇʀsᴇ</a>\n○ 𝐇ᴇɴᴛᴀɪ 𝐂ʜᴀɴɴᴇʟ : <a href='https://t.me/adult_Flux'>𝐀ᴅᴜʟᴛ 𝐅ʟᴜx</a>\n○ 𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ : <a href='https://t.me/+CKOnU7duxYEyNjg9'>𝐀ɴɪᴍᴇ 𝐂ʜᴀᴛ 𝐅ᴜʀʏ</a></blockquote></b>"
 SHORT_MSG = "<b>⌯ Here is Your Download Link, Must Watch Tutorial Before Clicking On Download...</b>"
 
 #start message
@@ -78,9 +78,9 @@ DEL_MSG = "<b>This File is deleting automatically in {time}. Forward in your Sav
 ADMINS.append(OWNER_ID)
 ADMINS.append(7827448605)
 
-LOG_FILE_NAME = "filesharingbot.txt"
+LOG_FILE_NAME = "sanjiisama.txt"
 
-LOG_FILE_NAME = "filesharingbot.txt"
+LOG_FILE_NAME = "sanjiisama.txt"
 
 logging.basicConfig(
     level=logging.INFO,
